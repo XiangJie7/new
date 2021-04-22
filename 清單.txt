@@ -1,0 +1,47 @@
+<table width="100%" border="0" bgcolor="#F9F3E5">
+      <tbody style="text-align: center">
+        <tr>
+          <th scope="col"> <ul class="drop-down-menu">
+	<li>
+		<a href="#">首頁</a>
+              </li></ul></th>
+          <th scope="col"><ul class="drop-down-menu"><li>
+		<a href="#">學校簡介</a>
+            <ul>
+                <li><a href="#">學制規模</a></li>
+                <li><a href="#">學校位置</a></li>
+                <li><a href="#">學校經營</a></li>
+            </ul>
+              </li></ul></th>
+          <th scope="col"><ul class="drop-down-menu"><li>
+		<a href="#">行政單位</a>
+	     <ul>
+		        <li><a href="#">校長室</a></li>
+		        <li><a href="#">教務處</a></li>
+		        <li><a href="#">學務處</a></li>
+		        <li><a href="#">總務處</a></li>
+                <li><a href="#">人事室</a></li>
+                <li><a href="#">會計室</a></li>
+                <li><a href="#">圖書館</a></li>
+	     </ul>
+	</li></ul></th>
+            <th scope="col"><ul class="drop-down-menu"><li>
+			<a href="#">教學單位</a>
+            <ul>
+                <li><a href="#">相關網站</a></li>
+            </ul>
+		</li></ul></th>
+          <th scope="col"><ul class="drop-down-menu"><li><a href="#">家長專區</a>
+            <ul>
+                <li><a href="#">親師資訊</a></li>
+                <li><a href="#">家長會</a></li>
+            </ul>
+        </li></ul></th>
+          <th scope="col"><ul class="drop-down-menu">
+			<li>
+			<a href="#">雲端學校</a>
+		</li></ul></th>
+      <th scope="col"><ul class="drop-down-menu"><li><a href="#">問題反映</a></li>
+          </ul></th>
+      </tbody>
+    </table>

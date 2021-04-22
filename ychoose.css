@@ -1,0 +1,43 @@
+.demo {
+		width : 150px;
+		height : 30px;
+		margin : 10px auto 0;
+		transition : 0.5s;
+		font-size: 20px;
+		background-color: #F9F3E5;
+	}
+.demo:hover
+{
+		background: -webkit-linear-gradient(left top, #FF057C 0%, #8D0B93 50%, #321575 100%);
+		background: -o-linear-gradient(bottom right, #FF057C 0%, #8D0B93 50%, #321575 100%);
+		background: -moz-linear-gradient(bottom right, #FF057C 0%, #8D0B93 50%, #321575 100%);
+		background: linear-gradient(to bottom right, #FF057C 0%, #8D0B93 50%, #321575 100%);
+        transform : scale(1.2);
+	    color: #FFFFFF;
+	}
+.demo1{
+	box-shadow : 5px 5px 5px rgba(0,0,0,0.8);
+}
+.con-title{
+	font-size: 30px;
+	font-family: "微軟正黑體";
+	color: #1371BD;
+	text-align: center;
+}
+.con-text{
+	font-size: 20px;
+	font-family: "微軟正黑體";
+	font-weight: bolder;
+}
+.choose
+{
+        width : 150px;
+		height : 30px;
+		margin : 10px auto 0;
+        font-size: 22px;
+        background: -webkit-linear-gradient(left top, #FF057C 0%, #8D0B93 50%, #321575 100%);
+		background: -o-linear-gradient(bottom right, #FF057C 0%, #8D0B93 50%, #321575 100%);
+		background: -moz-linear-gradient(bottom right, #FF057C 0%, #8D0B93 50%, #321575 100%);
+		background: linear-gradient(to bottom right, #FF057C 0%, #8D0B93 50%, #321575 100%);
+	    color: #FFFFFF;
+}

@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>大雄の幼兒園</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  <style>
+      .a{
+    font-family: "微軟正黑體";
+    font-size: 20px;
+    color: #0084FF;
+    text-align: left;
+      }
+  </style>
+  <link href="jquery-mobile/jquery.mobile.structure-1.3.0.min.css" rel="stylesheet" type="text/css">
+  <link href="list.css" rel="stylesheet" type="text/css">
+  <link href="pic/photo.css" rel="stylesheet" type="text/css">
+   <link rel="stylesheet" href="ychoose.css" type="text/css">
+  <script src="jquery-mobile/jquery-1.11.1.min.js"></script>
+  <script src="jquery-mobile/jquery.mobile-1.3.0.min.js"></script>
+  <script src="JS/list.js"></script>
+    <!-- ... 網頁載入 ... -->
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="load/queryloader2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    window.addEventListener('DOMContentLoaded', function() {
+    new QueryLoader2(document.querySelector("body"), {
+    barColor: "#D26900",
+    backgroundColor: "#F9F3E5",
+    percentage: true,
+    barHeight: 2,
+    minimumTime: 200,
+    fadeOutTime: 1000
+    });
+    });
+	</script>
+    <!-- ... 網頁載入 ... -->
+    <link href="home/css/flexslider.css" rel="stylesheet" type="text/css">
+    <script src ="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="home/js/jquery.flexslider.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
+    <!-- ... 訊息列表 ... -->
+    <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+    <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="new.css" rel="stylesheet" type="text/css">
+    <link href="bg.css" rel="stylesheet" type="text/css">
+</head>
+<body id="body">
+        <!-- 背景跟著動次動-->
+    <script type="text/javascript">
+        var body = document.getElementById("body");
+        window.onmousemove = function(e){
+            var x = e.clientX / 5,
+                   y = e.clientY / 5;
+            body.style.backgroundPositionX = x +"px";
+            body.style.backgroundPositionY = y +"px";
+        }
+    </script>
+     <!-- ... 首頁圖片與清單選項 ... -->
+<img src="pic/1.png" width="100%" height="100%" alt=""/>
+<table width="100%" border="0" bgcolor="#F9F3E5">
+      <tbody style="text-align: center">
+        <tr>
+            <th width="10%" scope="col"></th>
+          <th scope="col"> <ul class="drop-down-menu">
+	<li>
+		<a href="index.html" target="_top">首頁</a>
+            </li></ul></th>
+          <th scope="col"><ul class="drop-down-menu"><li>
+		<a href="shcool.html" target="_self">學校簡介</a>
+            <ul>
+                <li><a href="school/project.html" target="_self">學制規模</a></li>
+                <li><a href="school/position.html" target="_self">學校位置</a></li>
+                <li><a href="school/run.html" target="_self">學校經營</a></li>
+            </ul>
+              </li></ul></th>
+          <th scope="col"><ul class="drop-down-menu"><li>
+		<a href="gov.html" target="_self">行政單位</a>
+	     <ul>
+		        <li><a href="gov/leader.html" target="_self">園長室</a></li>
+		        <li><a href="gov/teacher.html" target="_self">教務處</a></li>
+		        <li><a href="gov/student.html" target="_self">學務處</a></li>
+		        <li><a href="gov/all.html" target="_self">總務處</a></li>
+                <li><a href="gov/books.html" target="_self">圖書館</a></li>
+	     </ul>
+	</li></ul></th>
+            <th scope="col"><ul class="drop-down-menu"><li>
+			<a href="teach.html" target="_self">教學單位</a>
+		</li></ul></th>
+          <th scope="col"><ul class="drop-down-menu"><li><a href="parent.html" target="_self">家長專區</a>
+            <ul>
+                <li><a href="parent/teachers.html" target="_self">親師資訊</a></li>
+                <li><a href="parent/meeting.html" target="_self">家長會</a></li>
+            </ul>
+        </li></ul></th>
+          <th scope="col"><ul class="drop-down-menu">
+			<li>
+			<a href="cloud.html" target="_self">雲端學校</a>
+		</li></ul></th>
+      <th scope="col"><ul class="drop-down-menu"><li><a href="question.html" target="_self">問題反映</a></li>
+          </ul></th>
+      <th width="10%" scope="col">&nbsp;</th>
+        </tr>
+      </tbody>
+</table>
+      <!-- ... 首頁圖片與清單選項 ... -->
+      <table width="80%" border="0" align="center">
+        <tbody style="text-align: center">
+          <tr>
+            <th width="25%" valign="top" style="text-align: center" scope="col">
+              <table width="100%" border="0" align="center" >
+              <tbody>
+                  <tr>
+                    <th valign="top" scope="col" ><table width="50%" border="1" bordercolor="#FFFFFF" align="center">
+                      <tbody>
+                          <tr>
+                          <td align="center" valign="top" bgcolor="#F9F3E5"><a href="gov/books.html" target="_self">
+                            <div class="choose">師資&環境</div>
+                          </a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                      <div align="left"><samp class="a">外部網站</samp></div>
+                      <br>
+                      <a href="https://web.ylc.edu.tw/yunlin/" target="new"><img src="pic/search.png" width="160" height="60" alt="" style="padding: 5px;"/></a><br>
+                      <a href="https://www.cdc.gov.tw/Disease/SubIndex/N6XvFa1YP9CXYdB0kNSA9A" target="new"><img src="pic/virus.png" width="160" height="60" alt="" style="padding: 5px;"/></a><br>
+                    <a href="https://www.gender.edu.tw/web/index.php/home" target="new"><img src="pic/sex.jpg" width="180" height="60" alt=""  style="padding: 5px;"/></a> </th>
+                  </tr>
+              </tbody>
+              </table>
+            <th width="75%" align="left" valign="top"  scope="col"><div class="demo1"><span class="con-title">師資陣容&amp;環境介紹</span><br>
+              <div align="left"><table width="70%" height="100%" border="0" align="center">
+  <tbody>
+    <tr>
+      <td width="30%" align="center" valign="middle" scope="row"><p><img src="pic/nobitapro.jpg" width="220" height="245" alt=""/></p>
+        <p><!-- 呼叫視窗按鈕 -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">點我查看簡介</button>
+<!--呼叫視窗 -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="con-title" id="exampleModalLabel">野比大雄(野比のび太)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <img src="pic/nobitapro.jpg" width="220" height="245" alt=""/>幼幼班導師 野比大雄<br>
+<strong>學歷</strong><span lang="EN-US"><strong>:</strong></span>
+        <p><span lang="EN-US"></span>實踐大學 財金系<span lang="EN-US"><br>
+          </span>加拿大溫哥華大學 語言教育系<span lang="EN-US"><br>
+          </span>玄奘大學 所長班</p>
+        <p>師大園長班<span lang="EN-US"><br>
+          </span>文化大學 安親管理師資班<span lang="EN-US"><br>
+            </span>南澳大 企業管理研究所<span lang="EN-US"><br>
+            </span><span lang="EN-US"> <br>
+                </span><strong>經歷</strong><span lang="EN-US"><strong>:</strong> </span></p>
+        <p><span lang="EN-US">        </span>新竹 露德幼稚園<span lang="EN-US"><br>
+          </span>新莊 文橋美語安親班<span lang="EN-US"><br>
+            </span>中國文化大學 專任講師<span lang="EN-US"><br>
+              <br></span><strong>教育理念</strong><span lang="EN-US"><strong>~</strong></span>始於愛<span lang="EN-US">,</span>終於快樂</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                                      </div>
+                                    </div>
+                      </div>
+                    </div>
+                  <script type="text/javascript">
+    $(document).ready(function(){
+        $('#exampleModal').modal('show');
+    });
+  </script></p></td>
+      <td width="30%" align="center" valign="middle"><p><img src="pic/Shizuka.png" width="220" height="245" alt=""/><p><!-- 呼叫視窗按鈕 -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal1">點我查看簡介</button>
+<!--呼叫視窗 -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="con-title" id="exampleModalLabel1">源靜香(源しずか)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <img src="pic/Shizuka.png" width="220" height="245" alt=""/>小班導師 源靜香<br>
+                                        <strong>學歷</strong><span lang="EN-US"><strong>:</strong></span>
+        <p><span lang="EN-US">        </span>雲林科技大學 建築系<span lang="EN-US"><br>
+          花</span>蓮師範大學 國小師資班<span lang="EN-US"><br>
+            </span>文化大學 作文師資班 安親管理師資班<span lang="EN-US"><br>
+              </span>淡江大學 教育行政研究所<span lang="EN-US"> <br>
+                </span>美國普萊斯敦大學 學前教育研究所<span lang="EN-US"> <br>
+                  <br>
+                  <br>
+                </span><strong>證照</strong><span lang="EN-US"><strong>:</strong></span></p>
+        <p><span lang="EN-US"></span>中華民國救難協會 水上救生員<span lang="EN-US"><br>
+          </span>中華民國游泳發展協會<span lang="EN-US"> C</span>級游泳教練<span lang="EN-US"><br>
+            </span>國語師資正音培訓班<span lang="EN-US"><br>
+              </span>慈濟種子教師證<span lang="EN-US"><br>
+                </span>中國育嬰師證<span lang="EN-US"><br>
+                  <br>
+                </span><strong>榮耀</strong><span lang="EN-US"><strong>:</strong></span></p>
+                                        <p><span lang="EN-US"></span>學校經營創意獎 教學創意獎<span lang="EN-US"> </span><strong>教育理念</strong><span lang="EN-US"><strong>~</strong></span>教育無他,唯愛與榜樣</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                  <script type="text/javascript">
+    $(document).ready(function(){
+        $('#exampleModal1').modal('show');
+    });
+  </script></p></p></td>
+      <td width="30%" align="center" valign="middle"><p><img src="pic/doraemon12.png" width="220" height="246" alt=""/></p>
+        <p><!-- 呼叫視窗按鈕 -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal2">點我查看簡介</button>
+<!--呼叫視窗 -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="con-title" id="exampleModalLabel2">哆啦A夢(ドラえもん)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <img src="pic/doraemon12.png" width="220" height="245" alt=""/>中班導師 哆啦A夢<br>
+                                          <strong>生產：</strong>松芝機器人工廠<br>
+                                          <strong>用油：</strong>稀油<br>
+                                          <strong>種類：</strong>保母型機器貓<br>
+                                          <strong>型號：</strong>MS-903<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                                      </div>
+                                    </div>
+                      </div>
+                    </div>
+                  <script type="text/javascript">
+    $(document).ready(function(){
+        $('#exampleModal2').modal('show');
+    });
+  </script></p></td>
+    </tr>
+    <tr>
+      <td width="30%" align="center" valign="middle"><p><img src="pic/san.jpg" width="207" height="245" alt=""/><p><!-- 呼叫視窗按鈕 -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal3">點我查看簡介</button>
+<!--呼叫視窗 -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="con-title" id="exampleModalLabel3">出木杉英才(できすぎ ひでとし)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <img src="pic/san.jpg" width="220" height="245" alt=""/>大班導師 出木杉英才<br>
+                                            <strong>學歷</strong><span lang="EN-US"><strong>:</strong></span>
+        <p><span lang="EN-US">        </span>國立教育大學<span lang="EN-US"><br>
+          花</span>經國管理學院 幼兒保育系
+                  <br>
+                  <br>
+              <strong>證照</strong><span lang="EN-US"><strong>:</strong></span></p>
+        <p><span lang="EN-US"></span>教保人員及相關人員早療初階 證照<span lang="EN-US"><br>
+          </span>CPR證照<span lang="EN-US"><br>
+            </span>主管人員 安全教育訓練<span lang="EN-US"><br>
+              </span>慈濟種子教師證<span lang="EN-US"><br>
+                </span>防火管理人員初階/進階<span lang="EN-US"><br>
+                  <br>
+                </span><strong>榮耀</strong><span lang="EN-US"><strong>:</strong></span></p>
+                                          <p><span lang="EN-US"></span>幼鐸獎 第二十四屆績優園所<span lang="EN-US"> </span><br><strong>座右銘</strong><span lang="EN-US"></span>做就對了!</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                       <script type="text/javascript">
+    $(document).ready(function(){
+        $('#exampleModal3').modal('show');
+    });
+  </script></p></p></td>
+      <td width="30%" align="center" valign="middle"><p><img src="pic/Suneo.png" width="220" height="245" alt=""/></p>
+        <p><!-- 呼叫視窗按鈕 -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal4">點我查看簡介</button>
+<!--呼叫視窗 -->
+                        <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="con-title" id="exampleModalLabel4">骨川小夫(骨川スネ夫)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <img src="pic/Suneo.png" width="220" height="245" alt=""/>幼幼班輔助教育 骨川小夫<br>
+                                            <strong>學歷</strong><span lang="EN-US"><strong>:</strong></span>
+        <p><span lang="EN-US"></span>亞太創意技術學院 兒童與家庭服務系<span lang="EN-US"><br>
+          花</span>康寧護理專科學校 幼保系
+                  <br>
+                  <br>
+              <strong>證照</strong><span lang="EN-US"><strong>:</strong></span></p>
+        <p><span lang="EN-US"></span>甲級保母執照<span lang="EN-US"><br>
+          </span>嬰幼兒身體與穴道按摩研習證書<span lang="EN-US"><br>
+            </span>早期療育初階、進階班<span lang="EN-US"><br>
+              </span>慈濟種子教師證<span lang="EN-US"><br>
+                </span>防火管理人員 初階、進階班<span lang="EN-US"><br>
+                  <br>
+                </span><br><strong>座右銘</strong><span lang="EN-US"></span><br>機會是留給有準備的人~成功是留給堅持到底的人<br>
+          沒有一個孩子是為了襯托幾個成績好的孩子來到學校的</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                       <script type="text/javascript">
+    $(document).ready(function(){
+        $('#exampleModal4').modal('show');
+    });
+  </script></p></td>
+      <td width="30%" align="center" valign="middle"><p><img src="pic/Gigante.png" width="220" height="245" alt=""/></p>
+        <p><p><!-- 呼叫視窗按鈕 -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal5">點我查看簡介</button>
+<!--呼叫視窗 -->
+                        <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="con-title" id="exampleModalLabel5">剛田 武(ごうだ たけし)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <img src="pic/Gigante.png" width="220" height="245" alt=""/>體育老師 剛田 武<br>
+                                            <strong>學歷</strong><span lang="EN-US"><strong>:</strong></span>
+        <p><span lang="EN-US"></span>台灣體育大學<span lang="EN-US"><br>
+          </span>東京體育專門學校(東京リゾート&スポーツ専門学校) 運動訓練科
+                  <br>
+                  <br>
+              <strong>證照</strong><span lang="EN-US"><strong>:</strong></span></p>
+        <p><span lang="EN-US"></span>甲級運動訓練執照<span lang="EN-US"><br>
+          </span>體育課程兒童研習證書<span lang="EN-US"><br>
+            </span>健康學科進階班<span lang="EN-US"><br>
+                  <br>
+                </span><br><strong>座右銘</strong><span lang="EN-US"></span><br>走路對腦力勞動者，特別是對創造性的人來說<br>是一種生理活動的最好方式。</p>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                                      </div>
+                                    </div>
+                                  </div>
+                        </div>
+                       <script type="text/javascript">
+    $(document).ready(function(){
+        $('#exampleModal5').modal('show');
+    });
+  </script></p></p></td>
+    </tr>
+    <tr>
+      <th width="30%" align="center" valign="middle" scope="row">&nbsp;</th>
+      <td width="30%" align="center" valign="middle"><p><img src="pic/dorami.jpg" width="220" height="243" alt=""/></p>
+        <p><!-- 呼叫視窗按鈕 -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal6">點我查看簡介</button>
+<!--呼叫視窗 -->
+                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <h5 class="con-title" id="exampleModalLabel6">哆啦美(ドラミ)</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                        </button>
+                                      </div>
+                                      <div class="modal-body">
+                                      <img src="pic/dorami.jpg" width="220" height="245" alt=""/>中班輔導教育 哆啦美<br>
+                                          <strong>生產：</strong>松芝機器人工廠<br>
+                                          <strong>用油：</strong>沉底濃油<br>
+                                          <strong>種類：</strong>輔助型機器貓<br>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                                      </div>
+                                    </div>
+                      </div>
+                    </div>
+                  <script type="text/javascript">
+    $(document).ready(function(){
+        $('#exampleModal6').modal('show');
+    });
+  </script></p></td>
+      <td width="30%" align="center" valign="middle"><p></p></td>
+    </tr>
+    <tr>
+      <th colspan="3" align="center" valign="middle" scope="row"><span style="text-align: left" class="con-title">環境介紹</span>
+        
+        </th>
+      </tr>
+    <tr>
+      <th colspan="3" align="center" valign="middle" scope="row"><p class="con-text" style="text-align: center"><img src="pic/school2.jpg" width="450" height="256" alt=""/><br>
+        學校外觀<br>
+        <img src="pic/school.jpg" width="450" height="255" alt=""/><br>        
+        校慶的時候<br>
+        <img src="pic/suneohome2.jpg" width="450" height="231" alt=""/>        <br>
+        這是學校裡的浴室<br>
+        <img src="pic/suneohome1.jpg" width="450" height="254" alt=""/>        <br>
+        鑲金過的馬桶<br>
+        <img src="pic/suneotv.jpg" width="450" height="253" alt=""/>        <br>
+        會客室</p></th>
+      </tr>
+  </tbody>
+</table>
+</div>
+            </div>
+            </th>
+              </th>
+          </tr>
+        </tbody>
+      </table>
+      <!--頁腳-->
+<footer id="footer"> <div style="position: relative; width: 100%; height: 300px;">
+        <div style="position: absolute; bottom: 35%; background-color: #FFFFFF; opacity:.5;width: 100%;height: 30%"></div>
+     <div style="position: absolute; bottom: 35%; left:20%; color: #06005E;width: 100%;height: 30%">大雄的幼兒園<br>
+        東京練馬區月見台芒原<br>
+        電話：888-888888<br>
+        傳真：777-777777</div>
+    <p style="text-align: center"><img src="pic/2.jpg" width="100%" height="100%" alt=""/></p>
+    </div></footer>
+    <!--頁腳-->
+</body>
+</html>
